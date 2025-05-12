@@ -1,3 +1,12 @@
 # Godot 4+ specific ignores
 .godot/
 /android/
+
+# Godot build and cache
+.import/
+.export/
+.export_debug/
+*.import
+*.tmp
+*.log
+*.db
